@@ -1,0 +1,155 @@
+.hero-home {
+  width: 100%;
+  height: 105vh;
+  background-color: #272727;
+  background-image: url
+    "https://uploads-ssl.webflow.com/5f679f6…/61a7524…_Modu%20Hero.jpg";
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  display: flex;
+}
+
+.navigation-transparent {
+  z-index: 5;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 10px;
+  display: flex;
+  position: relative;
+}
+.w-nav:before {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+.w-nav:after {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 1170px;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.w-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-white {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  width: 120px;
+}
+
+.nav-menu {
+  text-align: right;
+  flex: 1;
+  font-family: Mochiy Pop P One, Mochiy Pop P One;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.w-nav-menu {
+  float: right;
+  position: relative;
+}
+
+.nav-link-transparent {
+  max-width: 1170px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  margin-right: 30px;
+  padding: 16px 0;
+  font-family: Ubuntu Condensed, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0;
+  transition: all 0.3s;
+}
+
+.centered-container {
+  box-sizing: border-box;
+  display: block;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  color: #79798f;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.hero-heading {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: Rajdhani, sans-serif;
+  font-size: 70px;
+  font-weight: 2000;
+  line-height: 120%;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.hero-text {
+  font-size: 18px;
+  max-width: 70%;
+  opacity: 0.8;
+  color: #c4e2fa;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 28px;
+  line-height: 140%;
+  box-sizing: border-box;
+  display: block;
+}
+.button-2.yellow {
+  width: 200px;
+  border-color: #d4ff1c;
+}
+
+.button-2 {
+  color: #fff;
+  text-align: center;
+  background-color: #272727;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 20px;
+  font-family: Roboto Mono, sans-serif;
+  transition: all 0.3s;
+  display: block;
+  box-sizing: border-box;
+}
