@@ -136,7 +136,16 @@
 }
 .button-2.yellow {
   width: 200px;
-  border-color: #d4ff1c;
+  font-weight: 400;
+  border-color: #ffe563;
+  &:hover {
+    background-color: #ffe563; /* Inside turns lime on hover */
+    color: black; /* Text turns black on hover */
+    border-color: #ffe563;
+    font-size: 19px;
+    font-weight: 600;
+    transition: all 0.3s;
+  }
 }
 
 .button-2 {
