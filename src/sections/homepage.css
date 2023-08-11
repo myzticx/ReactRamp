@@ -137,14 +137,17 @@
 .button-2.yellow {
   width: 200px;
   font-weight: 400;
-  border-color: #ffe563;
+  border-color: white;
+  border-width: 3px;
+  font-size: 19px;
+  font-weight: 600;
   &:hover {
-    background-color: #ffe563; /* Inside turns lime on hover */
+    background-color: white; /* Inside turns lime on hover */
     color: black; /* Text turns black on hover */
-    border-color: #ffe563;
+    border-color: white;
+    border-width: 3px;
     font-size: 19px;
     font-weight: 600;
-    transition: all 0.3s;
   }
 }
 

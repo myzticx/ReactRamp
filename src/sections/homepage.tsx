@@ -38,7 +38,7 @@ export function HomePageSection() {
             >
               HOME
             </a>
-            <a href="#about.tsx" className="nav-link-transparent w-nav-link">
+            <a href="./about.tsx" className="nav-link-transparent w-nav-link">
               About
             </a>
             <a href="#what-we-do" className="nav-link-transparent w-nav-link">
@@ -87,11 +87,9 @@ export function HomePageSection() {
           webpage. Here at ReactRamp we have examples on how to use certain uses
           of React
         </h1>
-        <div className="hero-text">
-          <strong>Thank you</strong> for looking at ReactRamp!
-        </div>
-        <a href="#about" className="button-2 yellow w-button">
-          Learn more
+        <div className="hero-text">Thank you for looking at ReactRamp!</div>
+        <a href="" className="button-2 yellow w-button">
+          Get Started
         </a>
       </div>
       {/* </header> */}
