@@ -14,7 +14,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ children }) => {
     setTimeout(() => {
       setIsLoading(false); // Hide the loading screen
       setIsInitialLoading(false); // Set initial loading state to false
-    }, 3000); // Adjust the duration as needed
+    }, 1500); // Adjust the duration as needed
   }, []);
 
   return (
@@ -22,10 +22,10 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ children }) => {
       {isInitialLoading ? (
         <div className="loading-container">
           <div className="loading-spinner"></div>
-          <div className="loading-text">Loading...</div>
+          <div className="loading-text">ReactRamp is loading...</div>
         </div>
       ) : isLoading ? (
-        <div className="loading-text">Loading...</div>
+        <div className="loading-text">ReactRamp is loading...</div>
       ) : (
         children
       )}
