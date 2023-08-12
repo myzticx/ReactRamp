@@ -3,7 +3,7 @@
   height: 105vh;
   background-color: #272727;
   background-image: url
-    "https://uploads-ssl.webflow.com/5f679f6…/61a7524…_Modu%20Hero.jpg";
+    "https://cdn.discordapp.com/attachments/714850955643977769/1140066244498833408/image.png";
   background-position: 0 0;
   background-repeat: repeat;
   background-size: cover;
@@ -149,6 +149,10 @@
     font-size: 19px;
     font-weight: 600;
   }
+}
+.nav-link-transparent:hover {
+  font-size: 15px;
+  color: yellow;
 }
 
 .button-2 {
